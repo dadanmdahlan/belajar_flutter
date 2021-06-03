@@ -70,7 +70,6 @@ class _BiggerTextState extends State<BiggerText> {
           onPressed: (){
             setState(() {
               _textSize=32.0;
-              TextStyle(fontWeight: FontWeight.bold,);
             });
           },
         )
